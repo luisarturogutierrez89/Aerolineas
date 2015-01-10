@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		30DA1CF41A61CF660055B98C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1CF31A61CF660055B98C /* main.m */; };
 		30DA1CF71A61CF660055B98C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1CF61A61CF660055B98C /* AppDelegate.m */; };
-		30DA1CFA1A61CF660055B98C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1CF91A61CF660055B98C /* ViewController.m */; };
 		30DA1CFD1A61CF660055B98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DA1CFB1A61CF660055B98C /* Main.storyboard */; };
 		30DA1CFF1A61CF660055B98C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DA1CFE1A61CF660055B98C /* Images.xcassets */; };
 		30DA1D021A61CF660055B98C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DA1D001A61CF660055B98C /* LaunchScreen.xib */; };
 		30DA1D0E1A61CF660055B98C /* Aerolineas_EjecutivasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1D0D1A61CF660055B98C /* Aerolineas_EjecutivasTests.m */; };
+		30DA1D191A61D5130055B98C /* Hawer750ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1D181A61D5130055B98C /* Hawer750ViewController.m */; };
+		30DA1D1D1A61D8330055B98C /* Hawer400ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1D1C1A61D8330055B98C /* Hawer400ViewController.m */; };
+		30DA1D201A61D8460055B98C /* Jet45ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DA1D1F1A61D8460055B98C /* Jet45ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		30DA1CF31A61CF660055B98C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30DA1CF51A61CF660055B98C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30DA1CF61A61CF660055B98C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30DA1CF81A61CF660055B98C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30DA1CF91A61CF660055B98C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30DA1CFC1A61CF660055B98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30DA1CFE1A61CF660055B98C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30DA1D011A61CF660055B98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		30DA1D071A61CF660055B98C /* Aerolineas EjecutivasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aerolineas EjecutivasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DA1D0C1A61CF660055B98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30DA1D0D1A61CF660055B98C /* Aerolineas_EjecutivasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aerolineas_EjecutivasTests.m; sourceTree = "<group>"; };
+		30DA1D171A61D5130055B98C /* Hawer750ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hawer750ViewController.h; sourceTree = "<group>"; };
+		30DA1D181A61D5130055B98C /* Hawer750ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hawer750ViewController.m; sourceTree = "<group>"; };
+		30DA1D1B1A61D8330055B98C /* Hawer400ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hawer400ViewController.h; sourceTree = "<group>"; };
+		30DA1D1C1A61D8330055B98C /* Hawer400ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hawer400ViewController.m; sourceTree = "<group>"; };
+		30DA1D1E1A61D8460055B98C /* Jet45ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jet45ViewController.h; sourceTree = "<group>"; };
+		30DA1D1F1A61D8460055B98C /* Jet45ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jet45ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,7 @@
 			children = (
 				30DA1CF51A61CF660055B98C /* AppDelegate.h */,
 				30DA1CF61A61CF660055B98C /* AppDelegate.m */,
-				30DA1CF81A61CF660055B98C /* ViewController.h */,
-				30DA1CF91A61CF660055B98C /* ViewController.m */,
+				30DA1D1A1A61D8040055B98C /* Controllers */,
 				30DA1CFB1A61CF660055B98C /* Main.storyboard */,
 				30DA1CFE1A61CF660055B98C /* Images.xcassets */,
 				30DA1D001A61CF660055B98C /* LaunchScreen.xib */,
@@ -117,6 +122,19 @@
 				30DA1D0C1A61CF660055B98C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30DA1D1A1A61D8040055B98C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30DA1D171A61D5130055B98C /* Hawer750ViewController.h */,
+				30DA1D181A61D5130055B98C /* Hawer750ViewController.m */,
+				30DA1D1B1A61D8330055B98C /* Hawer400ViewController.h */,
+				30DA1D1C1A61D8330055B98C /* Hawer400ViewController.m */,
+				30DA1D1E1A61D8460055B98C /* Jet45ViewController.h */,
+				30DA1D1F1A61D8460055B98C /* Jet45ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DA1CFA1A61CF660055B98C /* ViewController.m in Sources */,
+				30DA1D191A61D5130055B98C /* Hawer750ViewController.m in Sources */,
+				30DA1D1D1A61D8330055B98C /* Hawer400ViewController.m in Sources */,
 				30DA1CF71A61CF660055B98C /* AppDelegate.m in Sources */,
+				30DA1D201A61D8460055B98C /* Jet45ViewController.m in Sources */,
 				30DA1CF41A61CF660055B98C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

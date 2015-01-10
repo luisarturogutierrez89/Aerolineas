@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Jet45ViewController.h
 //  Aerolineas Ejecutivas
 //
 //  Created by Arturo Gutierrez Juarez on 10/01/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Jet45ViewController : UIViewController
+- (IBAction)backButton:(id)sender;
 
 @end
-
